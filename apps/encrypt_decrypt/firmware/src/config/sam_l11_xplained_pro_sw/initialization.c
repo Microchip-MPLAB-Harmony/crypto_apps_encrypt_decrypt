@@ -124,7 +124,7 @@ const DRV_USART_PLIB_INTERFACE drvUsart0PlibAPI = {
     .read = (DRV_USART_PLIB_READ)SERCOM0_USART_Read,
     .readIsBusy = (DRV_USART_PLIB_READ_IS_BUSY)SERCOM0_USART_ReadIsBusy,
     .readCountGet = (DRV_USART_PLIB_READ_COUNT_GET)SERCOM0_USART_ReadCountGet,
-	.readAbort = (DRV_USART_PLIB_READ_ABORT)SERCOM0_USART_ReadAbort,
+    .readAbort = (DRV_USART_PLIB_READ_ABORT)SERCOM0_USART_ReadAbort,
     .writeCallbackRegister = (DRV_USART_PLIB_WRITE_CALLBACK_REG)SERCOM0_USART_WriteCallbackRegister,
     .write = (DRV_USART_PLIB_WRITE)SERCOM0_USART_Write,
     .writeIsBusy = (DRV_USART_PLIB_WRITE_IS_BUSY)SERCOM0_USART_WriteIsBusy,
@@ -166,11 +166,6 @@ const DRV_USART_INIT drvUsart0InitData =
 
 // </editor-fold>
 
-/* Do not remove the following line when performing Harmony3 code build. 
- * Refer to the crypt library release notes for V3.5. 
- */
-void TC0_TimerCallbackRegister
-    (SYS_TIME_PLIB_CALLBACK callback, uintptr_t context){}
 
 // *****************************************************************************
 // *****************************************************************************
@@ -234,6 +229,7 @@ const SYS_TIME_INIT sysTimeInitData =
 
 void SYS_Initialize ( void* data )
 {
+
     NVMCTRL_REGS->NVMCTRL_CTRLB = NVMCTRL_CTRLB_RWS(2);
 
     PM_Initialize();

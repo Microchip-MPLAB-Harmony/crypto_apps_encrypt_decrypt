@@ -4,10 +4,10 @@
 
 
 project: encrypt_decrypt
-creation_date: 2021-03-11T10:48:39.755-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2021-04-21T13:46:06.044-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mhc_mode: IDE            # [IDE|Standalone|Headless]
-mhc_version: v3.7.0
+mhc_version: v3.7.1
 mplabx_version: v5.45        # if MPLAB X plugin only
 plugin_version: v3.6.4        # if MPLAB X plugin only
 compiler: XC32 (2.41)
@@ -17,8 +17,8 @@ modules:
     - {name: "core", version: "v3.9.0"}
     - {name: "zlib", version: "v1.2.11"}
     - {name: "dev_packs", version: "v3.9.0"}
-    - {name: "wolfssl", version: "v4.7.0-stable"}
+    - {name: "wolfssl", version: "v4.7.0"}
     - {name: "bsp", version: "v3.9.0"}
-    - {name: "crypto", version: "unknown"}
+    - {name: "crypto", version: "v3.7.1"}
     - {name: "CMSIS-FreeRTOS", version: "v10.3.1"}
 

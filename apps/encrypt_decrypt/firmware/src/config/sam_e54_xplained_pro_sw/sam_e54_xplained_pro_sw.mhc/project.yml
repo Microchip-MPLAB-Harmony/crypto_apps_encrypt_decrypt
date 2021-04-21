@@ -1349,7 +1349,7 @@ files:
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6FDA12331038D4C48E1B819FDCCCF4CA
+  userChecksum: 282633020A136C9EAE8BE8727E0C8999
 - generatedChecksum: 624A16D50759D7A491C523D747764B49
   logicalPath: packs\CMSIS\CMSIS\Core\Include
   name: core_cm4.h
@@ -1525,13 +1525,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 306B0FB82837BA32B157E98CACDAB409
-- generatedChecksum: B9D55667FF8CE50A4D8A2E35EE6499F1
+- generatedChecksum: F497EBAA54732854F6A9BF38CA58D9C1
   logicalPath: config\sam_e54_xplained_pro_sw\crypto
   name: crypto.h
   physicalPath: crypto
   security: NON_SECURE
   type: HEADER
-  userChecksum: B9D55667FF8CE50A4D8A2E35EE6499F1
+  userChecksum: F497EBAA54732854F6A9BF38CA58D9C1
 - generatedChecksum: 0B49F860205DD292C26DEE88DCC1DDB9
   logicalPath: wolfcrypt
   name: cryptocb.h

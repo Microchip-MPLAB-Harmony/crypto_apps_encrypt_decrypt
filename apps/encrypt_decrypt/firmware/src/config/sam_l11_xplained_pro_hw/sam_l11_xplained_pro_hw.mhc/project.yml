@@ -481,7 +481,7 @@ files:
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D148C0997CD5F9E752DE48AA7A4C675B
+  userChecksum: 78FBFEF819477FE1FCD40B50CD232F1B
 - generatedChecksum: 479A727027F5AD9CBBDC717FD86D8B5E
   logicalPath: wolfcrypt
   name: integer.c
@@ -489,13 +489,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 479A727027F5AD9CBBDC717FD86D8B5E
-- generatedChecksum: 74B573E35F5F3157F10CE499A8C3E342
+- generatedChecksum: 3BB82899CA17B891240FAC7B71185192
   logicalPath: config\sam_l11_xplained_pro_hw
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 74B573E35F5F3157F10CE499A8C3E342
+  userChecksum: 3BB82899CA17B891240FAC7B71185192
 - generatedChecksum: 6513F2461B8F476B68CA73906086047F
   logicalPath: config\sam_l11_xplained_pro_hw
   name: libc_syscalls.c
@@ -573,13 +573,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: C3ECDED3D6301DB0DE622293ED615D21
-- generatedChecksum: 8AEEB2E4CD943E9ACBCD0E56AD7F2C97
+- generatedChecksum: 82803F8F054412A59EBC28DCB344356D
   logicalPath: config\sam_l11_xplained_pro_hw\peripheral\nvic
   name: plib_nvic.c
   physicalPath: peripheral\nvic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8AEEB2E4CD943E9ACBCD0E56AD7F2C97
+  userChecksum: 82803F8F054412A59EBC28DCB344356D
 - generatedChecksum: 3E5669CAC60931813D1B8CF65D1F07E9
   logicalPath: config\sam_l11_xplained_pro_hw\peripheral\nvmctrl
   name: plib_nvmctrl.c
@@ -608,13 +608,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 888DA73DA57E12AAC15B38A5BA09EDC1
-- generatedChecksum: D569779D9846C87F52570DB9197B3E35
+- generatedChecksum: 36FE45B3F911BC21477D98F164CB92A7
   logicalPath: config\sam_l11_xplained_pro_hw\peripheral\tc
   name: plib_tc0.c
   physicalPath: peripheral\tc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D569779D9846C87F52570DB9197B3E35
+  userChecksum: 36FE45B3F911BC21477D98F164CB92A7
 - generatedChecksum: 2145BFCDA739F3F3EE53FDE1DBA427F6
   logicalPath: config\sam_l11_xplained_pro_hw\peripheral\trng
   name: plib_trng.c
@@ -1553,13 +1553,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 306B0FB82837BA32B157E98CACDAB409
-- generatedChecksum: B9D55667FF8CE50A4D8A2E35EE6499F1
+- generatedChecksum: F497EBAA54732854F6A9BF38CA58D9C1
   logicalPath: config\sam_l11_xplained_pro_hw\crypto
   name: crypto.h
   physicalPath: crypto
   security: NON_SECURE
   type: HEADER
-  userChecksum: B9D55667FF8CE50A4D8A2E35EE6499F1
+  userChecksum: F497EBAA54732854F6A9BF38CA58D9C1
 - generatedChecksum: 0B49F860205DD292C26DEE88DCC1DDB9
   logicalPath: wolfcrypt
   name: cryptocb.h
@@ -1910,13 +1910,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: C492FEAFD776B304917664DD0F4F8C11
-- generatedChecksum: 18C845BB61A63F101DC1733FFB3E3E17
+- generatedChecksum: AFCF841467974AE3E5BB6905B4D91409
   logicalPath: config\sam_l11_xplained_pro_hw
   name: interrupts.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 18C845BB61A63F101DC1733FFB3E3E17
+  userChecksum: AFCF841467974AE3E5BB6905B4D91409
 - generatedChecksum: 2348BF7387F890D25AAB0E4B4F107215
   logicalPath: wolfcrypt
   name: logging.h
@@ -2176,13 +2176,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 6F9F9CBBFEDEC8784446F157BB625E1C
-- generatedChecksum: 285D89BF78D881F8EDDFE542757A3C2D
+- generatedChecksum: 8359325AB4B2F5A3DCDC10129C592FF4
   logicalPath: config\sam_l11_xplained_pro_hw\peripheral\tc
   name: plib_tc0.h
   physicalPath: peripheral\tc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 285D89BF78D881F8EDDFE542757A3C2D
+  userChecksum: 8359325AB4B2F5A3DCDC10129C592FF4
 - generatedChecksum: C0A6E5B99D379FC08247B5FA465A54B3
   logicalPath: config\sam_l11_xplained_pro_hw\peripheral\tc
   name: plib_tc_common.h
